@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+body{
+    margin: 0;
+}
+.parent{
+    width: 100%;
+    padding: 0;
+    height: 250px;
+}
+.width{
+    background-color: #aaa7a7;
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    width: calc(100% - 32px);
+    margin: 14px;
+    border: 1px solid rgb(46, 87, 87);
+    border-radius: 5px;
+    font-family: "Rubik Vinyl", serif;
+}
+.f1,
+.f2,
+.f3{
+    background-color: #aaa7a7;
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    float: left;
+    height: 70%;
+    margin-bottom: 15px;
+    border: 1px solid rgb(46, 87, 87);
+    border-radius: 9px;
+    font-family: "Rubik Vinyl", serif;
+
+}
+.clear{
+    clear: both;
+}
+.f1{
+    width: calc((100% - 66px)/3);
+    margin-left: 14px;
+    
+}
+.f2{
+    width: calc((100% - 49px)/ 2) ;
+    margin-left: 14px;
+}
+.f3{
+    width: calc((100% - 83px) /4);
+    margin-left: 14px;
+}
